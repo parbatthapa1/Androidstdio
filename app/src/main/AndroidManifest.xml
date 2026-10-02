@@ -41,6 +41,18 @@
             android:label="@string/title_activity_spotify"
             android:theme="@style/Theme.MyApplication"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".proActivity"
+            android:exported="false"
+            android:label="@string/title_activity_pro"
+            android:theme="@style/Theme.MyApplication"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".CardActivity"
+            android:exported="false"
+            android:label="@string/title_activity_card"
+            android:theme="@style/Theme.MyApplication"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>
